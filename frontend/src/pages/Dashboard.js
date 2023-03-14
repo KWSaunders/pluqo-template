@@ -6,6 +6,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Graph from "../components/Graph";
 import Header from "../components/Header";
+import Calendar from "../components/Calendar";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -47,7 +48,7 @@ const Dashboard = () => {
         <Graph />
       </>
     ),
-    Calendar: <Header />,
+    Calendar:  <><Header /></>,
     Cases: <Header />,
   };
 
