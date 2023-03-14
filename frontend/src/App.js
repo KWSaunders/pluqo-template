@@ -2,12 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from './pages/HomePage';
 function App() {
   return (
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
         </Routes>
       </Router>
     </div>
