@@ -8,6 +8,8 @@ import Graph from "../components/Graph";
 import Header from "../components/Header";
 import Calendar from "../components/Calendar";
 
+import CalendarWithCases from "../components/Calendar";
+
 const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
@@ -49,7 +51,11 @@ const Dashboard = () => {
         <Graph />
       </>
     ),
+<<<<<<< HEAD
     Calendar: <><Header /></>,
+=======
+    Calendar:  <><Header /> <CalendarWithCases /> </>,
+>>>>>>> 669be51137ab3980635491356d7bae7fce58dce3
     Cases: <Header />,
   };
 
