@@ -12,13 +12,12 @@ import CalendarWithCases from "../components/Calendar";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    padding: theme.spacing(2),
+
     textAlign: "center",
     color: theme.palette.text.secondary,
-    maxWidth: "800px",
+    width: "100%",
     margin: "auto",
-    height: "800px",
-    marginTop: theme.spacing(10),
+    height  : "100vh",
     display: "flex",
   },
   linkList: {
