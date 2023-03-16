@@ -39,6 +39,7 @@ const Dashboard = () => {
   const [activeComponent, setActiveComponent] = useState("Home");
 
   const handleListItemClick = (label) => {
+    // console.log(label);
     setActiveComponent(label);
   };
 
@@ -50,8 +51,16 @@ const Dashboard = () => {
         <Graph />
       </>
     ),
+<<<<<<< HEAD
+    Calendar: <><Header /></>,
+=======
     Calendar:  <><Header /> <CalendarWithCases /> </>,
+<<<<<<< HEAD
     Cases: <> <Header /> <CasesTable /></>,
+=======
+>>>>>>> 669be51137ab3980635491356d7bae7fce58dce3
+    Cases: <Header />,
+>>>>>>> d2f935dba69f78de28c0474999b511b981952724
   };
 
   return (
